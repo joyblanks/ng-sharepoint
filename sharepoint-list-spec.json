@@ -1,0 +1,32 @@
+{
+    "config": [
+      {
+        "name": "Demo",
+        "addToView": true,
+        "addToQuickLaunch": true,
+        "dropIfExists": true,
+        "columns": [
+          { "__metadata": { "type": "SP.Field" }, "FieldTypeKind": 3, "Title": "Multiline"  },
+          { "__metadata": { "type": "SP.Field" }, "FieldTypeKind": 20, "Title": "People" },
+          {
+            "__metadata": { "type": "SP.FieldChoice" }, "FieldTypeKind": 6, "Title": "Choice",
+            "Choices": {
+              "__metadata": { "type": "Collection(Edm.String)" },
+              "results": [
+                "Angular", "React", "Vue", "JS", "Polymer", "JQuery", "Backbone"
+              ]
+            }
+          }
+        ],
+        "items": [
+            {"Multiline": "Version is 8.1", "PeopleId": 1730, "Choice": "Angular", "Title": "Angular"},
+            {"Multiline": "Version is 16.9", "PeopleId": 1730, "Choice": "React", "Title": "React"},
+            {"Multiline": "Version is 2.6.10", "PeopleId": 1730, "Choice": "Vue", "Title": "Vue"},
+            {"Multiline": "Version is 10", "PeopleId": 1730, "Choice": "JS", "Title": "JS"},
+            {"Multiline": "Version is 3.0", "PeopleId": 1730, "Choice": "Polymer", "Title": "Polymer"},
+            {"Multiline": "Version is 3.4.1", "PeopleId": 1730, "Choice": "JQuery", "Title": "JQuery"},
+            {"Multiline": "Version is 1.4.0", "PeopleId": 1730, "Choice": "Backbone", "Title": "Backbone"}
+        ]
+      }
+    ]
+  }
